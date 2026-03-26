@@ -1,1 +1,18 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/7WZP_4SE)
+# Dados do Projeto
+
+Nome: Núbia Torres de Oliveira
+Matrícula: 906625
+Proposta escolhida: 5 - Temas e Conteúdos Associados
+
+## Descrição do Projeto
+
+Plataforma voltada para a descoberta e divulgação de podcasts. A aplicação organiza os conteúdos por temas, como tecnologia, educação, entretenimento e cultura, permitindo que os usuários explorem diferentes episódios de forma simples e intuitiva.
+
+## Wireframe do Projeto
+
+![Wireframe](/public/images/wireframe-diw.png)
+
+## HomePage do Projeto
+
+![HomePage1](/public/images/HomePage_1.png)
+![HomePage2](/public/images/HomePage_2.png)

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poopins, sans-serif;
+    background-color: #0f0f14;
+    color: #ffffff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #15151d;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #a855f7;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.3s;
+}
+
+.menu-list a:hover {
+    color: #a855f7;
+}
+
+.categoria-list {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.categoria-list li {
+    padding: 8px 15px;
+    background-color: #1e1e2a;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.categoria-list li:hover{
+    background-color: #a855f7;
+}
+
+.main {
+    padding: 20px 40px;
+}
+
+.banner {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #a855f7;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #9333ea;
+}
+
+.destaques {
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #1a1a24;
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.card button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: #a855f7;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #9333ea;
+}
+
+.formulario {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 200px;
+}
+
+.form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #a855f7;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #9333ea;
+}
+
+.footer {
+    background-color: #15151d;
+    padding: 20px;
+    text-align: center;
+    color: #aaa;
+}
